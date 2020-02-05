@@ -46,6 +46,5 @@ dependencies {
     implementation 'org.jetbrains:annotations-java5:15.0'
     implementation 'org.junit.jupiter:junit-jupiter-api'
 
-    androidTestImplementation 'androidx.test:rules:1.1.0'
 
 }
