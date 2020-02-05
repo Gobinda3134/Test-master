@@ -1,9 +1,12 @@
 package com.example.e_softwarica;
 
+import android.app.Notification;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.support.design.widget.TextInputLayout;
+import android.support.v4.app.NotificationCompat;
+import android.support.v4.app.NotificationManagerCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Html;
@@ -14,6 +17,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.e_softwarica.Createchannel.CreateChannel;
 import com.example.e_softwarica.model.RegisterReceiveParams;
 
 import org.w3c.dom.Text;
@@ -22,6 +26,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LoginActivity extends AppCompatActivity {
+    private NotificationManagerCompat notificationManagerCompat;
 
     private Button btnlogin,btnregister;
     EditText etusername,etpassword;
@@ -40,6 +45,10 @@ public class LoginActivity extends AppCompatActivity {
         initCreateAccountTextView();
         initViews();
         dbHelper = new DbHelper(this);
+        //for notification
+        notificationManagerCompat= NotificationManagerCompat.from(this);
+        CreateChannel channel=new CreateChannel(this);
+        channel.createChannel();
 
         btnlogin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -75,7 +84,7 @@ public class LoginActivity extends AppCompatActivity {
                         } while (resultSet.moveToNext());
                     }
 
-
+                    DisplayNotification();
 
 
                   //  RegisterReceiveParams currentUser = dbHelper.Authenticate(new RegisterReceiveParams(null, null, Email, Password));
@@ -98,6 +107,18 @@ public class LoginActivity extends AppCompatActivity {
                 }
             }
         });
+
+
+    }
+
+    private void DisplayNotification() {
+        Notification notification= new NotificationCompat.Builder(this, CreateChannel.CHANNEL_1)
+                .setSmallIcon(R.drawable.notices)
+                .setContentTitle("login successfull")
+                .setContentText("Login successfull")
+                .setCategory(NotificationCompat.CATEGORY_MESSAGE).build();
+
+        notificationManagerCompat.notify(1, notification);
 
 
     }
