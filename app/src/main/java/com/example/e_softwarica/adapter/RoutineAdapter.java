@@ -63,7 +63,7 @@ public class RoutineAdapter extends RecyclerView.Adapter<NoticeAdapter.ViewHolde
 
                 Toast.makeText(
                         context,
-                        "Cannot Download PDF",
+                        "You Cannot Download PDF",
                         Toast.LENGTH_SHORT).show();
 
             }
