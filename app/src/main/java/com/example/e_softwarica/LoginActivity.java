@@ -1,6 +1,7 @@
 package com.example.e_softwarica;
 
 import android.app.Notification;
+import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -110,7 +111,17 @@ public class LoginActivity extends AppCompatActivity {
 
 
     }
+    //testing
+    public LoginActivity(Context context){
 
+    }
+    public String validate(String userName, String password)
+    {
+        if(userName.equals("user") && password.equals("user"))
+            return "Login was successful";
+        else
+            return "Invalid login!";
+    }
     private void DisplayNotification() {
         Notification notification= new NotificationCompat.Builder(this, CreateChannel.CHANNEL_1)
                 .setSmallIcon(R.drawable.notices)
