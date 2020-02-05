@@ -67,7 +67,7 @@ public class AssignmentAdapter extends RecyclerView.Adapter<AssignmentAdapter.Vi
 
                     Toast.makeText(
                             context,
-                            "Cannot Download PDF",
+                            "User Cannot Download PDF",
                             Toast.LENGTH_SHORT).show();
 
               }
