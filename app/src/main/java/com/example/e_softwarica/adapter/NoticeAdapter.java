@@ -60,7 +60,7 @@ public class NoticeAdapter extends RecyclerView.Adapter<NoticeAdapter.ViewHolder
 
                 Toast.makeText(
                         context,
-                        "Cannot Download PDF",
+                        "You Cannot Download PDF",
                         Toast.LENGTH_SHORT).show();
 
             }
