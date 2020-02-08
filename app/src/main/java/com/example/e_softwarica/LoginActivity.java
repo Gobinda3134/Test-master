@@ -105,12 +105,18 @@ public class LoginActivity extends AppCompatActivity {
                        // Snackbar.make(buttonLogin, "Failed to log in , please try again", Snackbar.LENGTH_LONG).show();
 
                     }*/
+                   //Testing
+
                 }
             }
         });
 
 
     }
+
+
+
+
     //testing
 
     private void DisplayNotification() {
