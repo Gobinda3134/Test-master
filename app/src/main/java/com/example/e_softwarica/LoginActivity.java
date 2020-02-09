@@ -107,6 +107,7 @@ public class LoginActivity extends AppCompatActivity {
                     }*/
                    //Testing
 
+                    Logins();
                 }
             }
         });
@@ -114,7 +115,16 @@ public class LoginActivity extends AppCompatActivity {
 
     }
 
+    private void Logins() {
+        float first=Float.parseFloat(etusername.getText().toString());
+        float second=Float.parseFloat(etpassword.getText().toString());
+        testing arithmetic=new testing();
+        String result=arithmetic.login("first", "second");
 
+        Intent intent=new Intent(LoginActivity.this, Dashboard_fragment.class);
+        intent.putExtra("result",result);
+        startActivity(intent);
+    }
 
 
     //testing
