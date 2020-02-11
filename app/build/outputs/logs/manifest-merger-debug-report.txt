@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:2:1-68:12
-INJECTED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:2:1-68:12
-INJECTED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:2:1-68:12
-INJECTED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:2:1-68:12
+ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:2:1-71:12
 MERGED from [com.android.support:design:28.0.0] /home/dell/.gradle/caches/transforms-2/files-2.1/d9db9cdddbcfee3ff14a982a10293416/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/dell/.gradle/caches/transforms-2/files-2.1/a12fe7df115629710ba694b163147993/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/dell/.gradle/caches/transforms-2/files-2.1/ed07349dec61c623f632fbddb6de504c/AndroidManifest.xml:2:1-11:12
@@ -46,20 +46,20 @@ MERGED from [com.android.support:print:28.0.0] /home/dell/.gradle/caches/transfo
 MERGED from [com.android.support:interpolator:28.0.0] /home/dell/.gradle/caches/transforms-2/files-2.1/cea846a6d162c55c937003a0346abfce/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:multidex:1.0.0] /home/dell/.gradle/caches/transforms-2/files-2.1/8a921b1059975c75d07c22d4ec649c24/AndroidManifest.xml:16:1-19:12
 MERGED from [de.hdodenhof:circleimageview:3.0.0] /home/dell/.gradle/caches/transforms-2/files-2.1/0f4af942f8225240a5925be01bfee4cb/AndroidManifest.xml:2:1-11:12
-INJECTED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:2:1-68:12
-INJECTED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:2:1-68:12
-INJECTED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:2:1-68:12
+INJECTED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:2:1-71:12
 	package
 		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:3:5-39
 		INJECTED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml
 		INJECTED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:2:1-68:12
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:2:1-71:12
 		INJECTED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:2:1-68:12
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:2:1-71:12
 		INJECTED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:2:11-69
@@ -87,8 +87,12 @@ uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:13:5-81
 	android:name
 		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:13:22-78
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:14:5-74
+	android:name
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:14:22-71
 application
-ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:15:5-66:19
+ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:17:5-69:19
 MERGED from [com.android.support:design:28.0.0] /home/dell/.gradle/caches/transforms-2/files-2.1/d9db9cdddbcfee3ff14a982a10293416/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] /home/dell/.gradle/caches/transforms-2/files-2.1/d9db9cdddbcfee3ff14a982a10293416/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/dell/.gradle/caches/transforms-2/files-2.1/ed07349dec61c623f632fbddb6de504c/AndroidManifest.xml:9:5-20
@@ -116,117 +120,121 @@ MERGED from [de.hdodenhof:circleimageview:3.0.0] /home/dell/.gradle/caches/trans
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] /home/dell/.gradle/caches/transforms-2/files-2.1/e4f3caf08c14bca4e8e63b227d0f5f92/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:22:9-35
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:24:9-35
 	android:label
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:19:9-41
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:21:9-41
 	android:roundIcon
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:21:9-54
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:23:9-54
 	android:largeHeap
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:20:9-33
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:22:9-33
 	android:icon
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:18:9-43
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:20:9-43
 	android:allowBackup
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:17:9-35
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:19:9-35
 	android:theme
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:23:9-40
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:25:9-40
 	android:name
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:16:9-38
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:18:9-38
+activity#com.example.e_softwarica.Fingerprints
+ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:26:9-59
+	android:name
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:26:19-47
 activity#com.example.e_softwarica.Search
-ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:24:9-53
+ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:27:9-44
 	android:name
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:24:19-41
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:27:19-41
 meta-data#com.google.android.geo.API_KEY
-ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:33:9-35:55
+ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:36:9-38:55
 	android:value
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:35:13-52
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:38:13-52
 	android:name
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:34:13-58
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:37:13-58
 activity#com.example.e_softwarica.NewsDescriptionActivity
-ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:37:9-61
+ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:40:9-61
 	android:name
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:37:19-58
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:40:19-58
 activity#com.example.e_softwarica.NoticeView
-ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:38:9-48
+ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:41:9-48
 	android:name
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:38:19-45
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:41:19-45
 activity#com.example.e_softwarica.RoutineView
-ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:39:9-49
+ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:42:9-49
 	android:name
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:39:19-46
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:42:19-46
 activity#com.example.e_softwarica.RoutineDescriptionActivity
-ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:40:9-64
+ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:43:9-64
 	android:name
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:40:19-61
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:43:19-61
 activity#com.example.e_softwarica.NoticeDescriptionActivity
-ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:41:9-63
+ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:44:9-63
 	android:name
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:41:19-60
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:44:19-60
 activity#com.example.e_softwarica.AssignmentDescriptionActivity
-ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:42:9-67
+ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:45:9-67
 	android:name
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:42:19-64
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:45:19-64
 activity#com.example.e_softwarica.SplashActivity
-ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:43:9-49:20
+ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:46:9-52:20
 	android:name
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:43:19-49
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:46:19-49
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:44:13-48:29
+ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:47:13-51:29
 action#android.intent.action.MAIN
-ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:45:17-69
+ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:48:17-69
 	android:name
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:45:25-66
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:48:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:47:17-77
+ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:50:17-77
 	android:name
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:47:27-74
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:50:27-74
 activity#com.example.e_softwarica.NewsActivity
-ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:50:9-50
+ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:53:9-50
 	android:name
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:50:19-47
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:53:19-47
 activity#com.example.e_softwarica.RegisterActivity
-ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:51:9-54
+ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:54:9-54
 	android:name
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:51:19-51
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:54:19-51
 activity#com.example.e_softwarica.LoginActivity
-ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:52:9-51
+ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:55:9-51
 	android:name
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:52:19-48
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:55:19-48
 activity#com.example.e_softwarica.AssignmentActivity
-ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:53:9-56
+ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:56:9-56
 	android:name
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:53:19-53
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:56:19-53
 activity#com.example.e_softwarica.GalleryActivity
-ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:54:9-53
-	android:name
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:54:19-50
-activity#com.example.e_softwarica.AssignmentView
-ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:55:9-52
-	android:name
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:55:19-49
-activity#com.example.e_softwarica.RoutineActivity
-ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:56:9-53
-	android:name
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:56:19-50
-activity#com.example.e_softwarica.CoursesActivity
 ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:57:9-53
 	android:name
 		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:57:19-50
+activity#com.example.e_softwarica.AssignmentView
+ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:58:9-52
+	android:name
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:58:19-49
+activity#com.example.e_softwarica.RoutineActivity
+ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:59:9-53
+	android:name
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:59:19-50
+activity#com.example.e_softwarica.CoursesActivity
+ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:60:9-53
+	android:name
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:60:19-50
 activity#com.example.e_softwarica.ClubActivity
-ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:58:9-61:52
+ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:61:9-64:52
 	android:screenOrientation
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:61:13-49
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:64:13-49
 	android:launchMode
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:60:13-48
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:63:13-48
 	android:name
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:59:13-41
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:62:13-41
 activity#com.example.e_softwarica.MainActivity
-ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:62:9-65:59
+ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:65:9-68:59
 	android:label
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:64:13-45
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:67:13-45
 	android:theme
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:65:13-56
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:68:13-56
 	android:name
-		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:63:13-41
+		ADDED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml:66:13-41
 uses-sdk
 INJECTED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/dell/Desktop/Test-master/app/src/main/AndroidManifest.xml
