@@ -1326,6 +1326,7 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
+id fingerprintImage
 id fixed
 id forever
 id fragmentContainer
@@ -1336,6 +1337,7 @@ id ghost_view
 id gone
 id group_divider
 id groups
+id headingLabel
 id home
 id homeAsUp
 id hybrid
@@ -1406,6 +1408,7 @@ id notification_main_column
 id notification_main_column_container
 id outline
 id packed
+id paraLabel
 id parallax
 id parent
 id parentPanel
@@ -1587,6 +1590,7 @@ layout activity_assignment_view
 layout activity_club
 layout activity_courses
 layout activity_events
+layout activity_fingerprints
 layout activity_fragment
 layout activity_gallery
 layout activity_login
@@ -1657,6 +1661,9 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 menu activity_main_drawer
 menu main
+mipmap a
+mipmap b
+mipmap c
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
