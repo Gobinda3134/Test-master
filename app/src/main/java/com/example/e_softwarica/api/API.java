@@ -19,13 +19,13 @@ public interface API {
     //@POST("com/example/e_softwarica/api/account/signup")
     //Call<Void> register(@Field("first_name") String first_name , @Field("last_name") String last_name,@Field("username") String username , @Field("password") String password);
 
-    @POST("allassignment.php")
+    @POST("allassignment.js")
     Call<AssignmentReceiveParams> getAllAssignment();
 
-    @POST("allnotice.php")
+    @POST("allnotice.js")
     Call<NoticeReceiveParams> getAllNotice();
 
-    @POST("allroutine.php")
+    @POST("allroutine.js")
     Call<RoutineReceiveParams> getAllRoutine();
 
 
