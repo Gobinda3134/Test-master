@@ -34,8 +34,8 @@
         android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.e_softwarica.sensor" />
         <activity android:name="com.example.e_softwarica.Fingerprints" />
         <activity android:name="com.example.e_softwarica.Search" />
         <!--

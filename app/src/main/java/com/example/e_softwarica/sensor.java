@@ -19,7 +19,15 @@ public class sensor extends AppCompatActivity {
         SensorEventListener sensorEventListener=new SensorEventListener() {
             @Override
             public void onSensorChanged(SensorEvent event) {
-               
+                if (event.values[0]<proximitysensor.getMaximumRange())
+                {
+                    getWindow().getDecorView().setBackgroundColor(Color.RED);
+                }
+                else
+                {
+                    getWindow().getDecorView().setBackgroundColor(Color.GREEN);
+
+                }
 
             }
 
