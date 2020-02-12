@@ -36,5 +36,6 @@ public class sensor extends AppCompatActivity {
 
             }
         };
+        sensorManager.registerListener(sensorEventListener, proximitysensor, 2*1000*1000);
     }
 }
