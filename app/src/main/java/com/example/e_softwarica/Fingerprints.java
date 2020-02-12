@@ -51,17 +51,13 @@ public class Fingerprints extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fingerprints);
 
-        fingerprintImage.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(Fingerprints.this, LoginActivity.class);
-                startActivity(intent);            }
-        });
 
 
         mHeadingLabel = (TextView) findViewById(R.id.headingLabel);
         mFingerprintImage = (ImageView) findViewById(R.id.fingerprintImage);
         mParaLabel = (TextView) findViewById(R.id.paraLabel);
+        fingerprintImage=(ImageView) findViewById(R.id.fingerprintImage);
+
 
         // Check 1: Android version should be greater or equal to Marshmallow
         // Check 2: Device has Fingerprint Scanner
@@ -69,6 +65,13 @@ public class Fingerprints extends AppCompatActivity {
         // Check 4: Lock screen is secured with atleast 1 type of lock
         // Check 5: Atleast 1 Fingerprint is registered
 
+        fingerprintImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(Fingerprints.this, LoginActivity.class);
+                startActivity(intent);
+            }
+        });
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
 
             fingerprintManager = (FingerprintManager) getSystemService(FINGERPRINT_SERVICE);
